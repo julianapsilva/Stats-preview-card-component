@@ -83,3 +83,42 @@ h1 bold{
         linear-gradient(rgba(170, 92, 219,0.4), rgba(170, 92, 219, 0.4)), 
         url(/images/image-header-desktop.jpg);
 }
+
+@media(max-width: 700px){
+   .attribution{
+        display: none;
+    }   
+
+    section{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        padding: 0 20px 0 20px;
+
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .metrics{
+        flex-direction: column;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+        font-size: 15px;
+    }
+ 
+    .element-with-background-image{
+        height:200px;
+        background-size:cover;
+        background-image:
+        linear-gradient(rgba(170, 92, 219,0.4), rgba(170, 92, 219, 0.4)), 
+        url(/images/image-header-mobile.jpg);
+
+    }
+}
