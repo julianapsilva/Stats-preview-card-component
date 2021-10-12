@@ -81,7 +81,7 @@ h1 bold{
     overflow: hidden;
         background-image:
         linear-gradient(rgba(170, 92, 219,0.4), rgba(170, 92, 219, 0.4)), 
-        url(/images/image-header-desktop.jpg);
+        url(images/image-header-desktop.jpg);
 }
 
 @media(max-width: 700px){
@@ -118,7 +118,7 @@ h1 bold{
         background-size:cover;
         background-image:
         linear-gradient(rgba(170, 92, 219,0.4), rgba(170, 92, 219, 0.4)), 
-        url(/images/image-header-mobile.jpg);
+        url(images/image-header-mobile.jpg);
 
     }
 }
